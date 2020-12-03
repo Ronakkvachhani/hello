@@ -1,0 +1,94 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+    font-size: large;
+    /* margin:auto */
+    /* margin-left:auto;
+    margin-right:auto; */
+    
+    
+    
+
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+    font-size: 45px;
+  }
+  .head
+  {
+      text-align: center;
+      /* background-color: chocolate; */
+      height:10vh;
+      width:100vw;
+      line-height: 10vh;
+      border : 10px outset black; 
+  }
+  body {
+    
+  }
+
+  .middle {
+    height:80vh;
+
+      background-image: url("1.jpg");
+     
+      background-repeat: ROUND;
+      
+    position: relative;
+    
+     
+  }
+  .animation
+{
+    
+    animation:  ganpatiji 40s infinite;}
+
+@keyframes ganpatiji{
+    20%{color:yellow;background-color:black;}
+    50%{color:black;background-color:white;}
+	70%{color:yellow;background-color:darkblue;}
+   
+    80%{color:white;background-color:darkblue;}}
+
+    .ta {
+      /* background-color: lightblue;
+      margin:auto; */
+      background-color: lightblue;
+      
+    }
+
+     .ti{
+      /* margin-top:10vh; */
+      /* margin:auto;
+      */
+      position: absolute;
+      
+      left:50%;
+      top:25%;
+      transform: translate(-50%,-45%);
+ 
+    } 
+    .highlight{
+      background-color: black;
+      color: yellow;
+    }
+    .blank {
+      background-color:red;
+    }
+ #number {
+   background-color:burlywood;
+   text-align: center;
+   width:100vw;
+ }
+
+ #butto {
+   font-size: large;
+   background-color: darkblue;
+   color: yellow;
+   width:100vw;
+ }
